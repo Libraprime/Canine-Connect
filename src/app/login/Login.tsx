@@ -2,7 +2,7 @@ export default function Login () {
     return (
         <div className="flex-row-reverse lg:flex items-center justify-center">
             <div className="bg-white text-black h-screen lg:w-2/3">
-                <div className="pt-5 text-3xl font-bold mx-5 p-5">Welcome to Cannine Connect</div>
+                <div className="pt-5 text-3xl font-bold h-1/4 mx-5 p-5">Welcome to Cannine Connect</div>
                 <form className="max-w-sm mx-auto">
                     <div className=" font-light my-5 flex-start">Login to your account</div>
                 <div className="mb-5">
@@ -21,13 +21,14 @@ export default function Login () {
                 </form>
             </div>
 
-            <div className="lg:w-1/3 bg-grey m-5 h-screen text-center items-center align-center">
-                <div className="p-5 text-3xl font-bold mx-5">
+            <div className="lg:w-1/3 bg-grey m-5 text-center items-center align-center">
+                <div className="p-5 text-3xl h-1/2 font-bold mx-5">
                     Jerskits.
                 </div>
                 <div>
-                    <img className="content-center m-5 p-5" width="10%" src="https://banner2.cleanpng.com/20190504/blc/kisspng-scalable-vector-graphics-encapsulated-postscript-c-leaf-png-icon-18-png-repo-free-png-icons-5ccdc273b52358.445843551556988531742.jpg" alt="logo" />
+                    <img className="p-5 m-5" style={{ marginLeft: 150 }} width="30%" src="https://banner2.cleanpng.com/20190504/blc/kisspng-scalable-vector-graphics-encapsulated-postscript-c-leaf-png-icon-18-png-repo-free-png-icons-5ccdc273b52358.445843551556988531742.jpg" alt="logo" />
                     Best quality materials
+                    <div className="font-light text-xs p-3">Our products is made from at least 75% <br /> recycled polyester fibers</div>
                 </div>
             </div>
         </div>
