@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 export default function Login () {
     return (
         <div className="flex-row-reverse lg:flex items-center justify-center">
@@ -14,14 +16,16 @@ export default function Login () {
                     <input type="password" id="password" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
                 </div>
                 <div className="flex items-start mb-5">
-                    <label htmlFor="forget password" className="ms-2 text-sm font-medium text-black-900">Forgot password?</label>
+                <Link href="/forgot-password">
+                    <div className="ms-2 text-sm font-medium text-black-900">Forgot password?</div>
+                </Link>
                 </div>
                 <button type="submit" className="text-white mb-5 pb-5 bg-black hover:bg-black focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-black-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">LOGIN</button>
                 <div className="mb-5 text-sm">Don't have an account? <a className="font-medium" href="">Register</a></div>
                 </form>
             </div>
 
-            <div className="lg:w-1/3 bg-grey m-5 text-center items-center align-center">
+            {/* <div className="lg:w-1/3 bg-grey m-5 text-center items-center align-center">
                 <div className="p-5 text-3xl h-1/2 font-bold mx-5">
                     Jerskits.
                 </div>
@@ -30,7 +34,7 @@ export default function Login () {
                     Best quality materials
                     <div className="font-light text-xs p-3">Our products is made from at least 75% <br /> recycled polyester fibers</div>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
