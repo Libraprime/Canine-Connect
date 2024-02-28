@@ -4,8 +4,8 @@ import React from "react";
 const SideBar = () => {
     return (
         <div>
-           <div style={{ marginTop: 250 }} className="bg-grey m-auto text-center items-center align-center lg:w-1/3">
-                <div className="py-14 text-3xl font-bold my-10 mt-20  m-auto">
+           <div className="bg-grey my-20 m-auto text-center items-center align-center lg:w-1/3">
+                <div className="py-14 text-3xl h-1/2 font-bold my-10 mt-20  m-auto">
                     Canine Connect.
                 </div>
                 <div>

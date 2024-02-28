@@ -10,7 +10,7 @@ const LoginPage: React.FC = () => {
             <div className="bg-white text-black h-screen lg:w-2/3" >
                 <Login />
             </div>
-            <div className="lg:w-1/3 m-0 text-white h-screen bg-slate-900 m-5 text-center items-center align-center">
+            <div className="lg:w-1/3 text-white h-screen bg-slate-900 text-center items-center align-center">
                 <SideBar />
             </div>            
         </div>
