@@ -3,8 +3,8 @@ import Link from "next/link"
 export default function Login () {
     return (
         <div className="flex-row-reverse lg:flex items-center justify-center">
-            <div className="bg-white text-black h-screen lg:w-2/3">
-                <div className="pt-5 text-3xl font-bold h-1/4 mx-5 p-5">Welcome to Cannine Connect</div>
+            <div className="bg-white text-black m-auto h-screen lg:w-2/3">
+                <div className="pt-5 text-3xl font-bold h-1/4 m-auto my-14 mt-20 p-5">Welcome to Cannine Connect</div>
                 <form className="max-w-sm mx-auto">
                     <div className=" font-light my-5 flex-start">Login to your account</div>
                 <div className="mb-5">
