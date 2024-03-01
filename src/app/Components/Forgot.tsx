@@ -1,7 +1,7 @@
 export default function ForgotPassword () {
     return (
-        <div className="flex-row-reverse lg:flex items-center justify-center">
-            <div className="bg-white text-black h-screen lg:w-2/3">
+        <div>
+            <div >
                 <div className="pt-5 text-3xl font-bold h-1/4 mx-5 p-5">Forgot Password</div>
                 <form className="max-w-sm mx-auto">
                     <div className=" font-light my-5 flex-start">We will send a new password  to your account from email.</div>
@@ -15,7 +15,7 @@ export default function ForgotPassword () {
                 </form>
             </div>
 
-            <div className="lg:w-1/3 bg-grey m-5 text-center items-center align-center">
+            {/* <div className="lg:w-1/3 bg-grey m-5 text-center items-center align-center">
                 <div className="p-5 text-3xl h-1/2 font-bold mx-5">
                     Jerskits.
                 </div>
@@ -24,7 +24,7 @@ export default function ForgotPassword () {
                     Best quality materials
                     <div className="font-light text-xs p-3">Our products is made from at least 75% <br /> recycled polyester fibers</div>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
