@@ -1,8 +1,11 @@
+import React from "react"
+import Link from "next/link"
+
 export default function ForgotPassword () {
     return (
-        <div>
-            <div >
-                <div className="pt-5 text-3xl font-bold h-1/4 mx-5 p-5">Forgot Password</div>
+        <div className="flex-row-reverse lg:flex items-center justify-center">
+            <div className="bg-white text-black m-auto h-screen lg:w-2/3">
+                <div className="pt-5 text-3xl font-bold m-auto mt-20 p-5">Forgot Password</div>
                 <form className="max-w-sm mx-auto">
                     <div className=" font-light my-5 flex-start">We will send a new password  to your account from email.</div>
                 <div className="mb-5">
@@ -13,6 +16,14 @@ export default function ForgotPassword () {
                 <button type="submit" className="text-white mb-5 pb-5 bg-black hover:bg-black focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-black-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">LOGIN</button>
                 <div className="mb-5 text-sm">Don't have an account? <a className="font-medium" href="">Register</a></div>
                 </form>
+                <Link href="/">
+                    <img 
+                    src="https://icon2.cleanpng.com/20180920/ur/kisspng-computer-icons-clip-art-vector-graphics-symbol-ima-instagram-home-icon-gallery-5ba3893d645047.4226597815374441574109.jpg" 
+                    alt="Back to login page" 
+                    className="w-10 p-1 m-auto"
+                    />
+                    <p className="text-center text-xs">Back to login</p>
+                </Link>
             </div>
 
             {/* <div className="lg:w-1/3 bg-grey m-5 text-center items-center align-center">
